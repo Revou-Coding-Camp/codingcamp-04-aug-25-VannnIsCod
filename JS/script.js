@@ -52,6 +52,8 @@ function tambah() {
   tr.appendChild(tdDate);
   tr.appendChild(tdStatus);
 
+  document.getElementById("todoBody").appendChild(tr);
+  
   taskInput.value = "";
   dateInput.value = "";
 }
@@ -94,3 +96,4 @@ function hapustugas() {
 }
 
 // AAAAAAAAAAAAAAAAAAAAA SUSAH BAAANGETTTTTTTTTTTTTTTTTTTTTTTTTTTT BINGUNGGG MANA TUGAS SEKOLAH BANYAKKKKK + TUGAS SELEKSI OSIS BUANYAK PAAKE BANGETTTTTT HUHUHUUUUU PLSSS REVOUUUU SEMOGA AKU DAPET SERTIFIKAT:(((((((((
+
